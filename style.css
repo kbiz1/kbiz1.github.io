@@ -3,10 +3,21 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    animation: openAnim 3s;
 }
 
 #Calculator, #Counter, #BaseCalculator, #TicTacToe {
     cursor: pointer;
     border: none;
     background-color: white;
+}
+
+@keyframes openAnim {
+    from {
+        font-size: 2000px;
+    }
+    
+    to {
+        font-size: 28px;
+    }
 }
