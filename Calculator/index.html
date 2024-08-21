@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+        <div style="padding-bottom: 4px;">
+            <span contenteditable="true" id="calcTextBox">0</span>
+        </div>
+        <div style="padding-bottom: 5px; text-align: center;">
+            <button id="calc1" onclick="CalcBtnInsertText(this.innerHTML);">1</button>
+            <button id="calc2" onclick="CalcBtnInsertText(this.innerHTML);">2</button>
+            <button id="calc3" onclick="CalcBtnInsertText(this.innerHTML);">3</button>
+            <button id="plusOP" onclick="OprBtnInsertText(this.innerHTML);">+</button>
+        </div>
+        <div style="padding-bottom: 5px; text-align: center;">
+            <button id="calc4" onclick="CalcBtnInsertText(this.innerHTML);">4</button>
+            <button id="calc5" onclick="CalcBtnInsertText(this.innerHTML);">5</button>
+            <button id="calc6" onclick="CalcBtnInsertText(this.innerHTML);">6</button>
+            <button id="minusOP" onclick="OprBtnInsertText(this.innerHTML);">-</button>
+        </div>
+        <div style="padding-bottom: 5px; text-align: center;">
+            <button id="calc7" onclick="CalcBtnInsertText(this.innerHTML);">7</button>
+            <button id="calc8" onclick="CalcBtnInsertText(this.innerHTML);">8</button>
+            <button id="calc9" onclick="CalcBtnInsertText(this.innerHTML);">9</button>
+            <button id="multiOP" onclick="OprBtnInsertText(this.innerHTML);">*</button>
+        </div>
+        <div style="text-align: center;">
+            <button id="calc0" onclick="CalcBtnInsertText(this.innerHTML);">0</button>
+            <button id="commaBtn" onclick="CalcBtnInsertText(this.innerHTML);">.</button>
+            <button id="calcBtn" onclick="calcBtn();">=</button>
+            <button id="diviOP" onclick="OprBtnInsertText(this.innerHTML);">/</button>
+        </div>
+        <div style="text-align: center; padding-top: 5px;">
+            <button id="logBtn" onclick="OprBtnInsertText(this.innerHTML);">log</button>
+            <button id="facultyBtn" onclick="OprBtnInsertText(this.innerHTML);">!</button>
+            <button id="powButton" onclick="OprBtnInsertText(this.innerHTML);">x(y)</button>
+            <button id="wurzelBtn" onclick="OprBtnInsertText(this.innerHTML);">√</button>
+        </div>
+        <div style="text-align: center; padding-top: 5px;">
+            <button id="sinBtn" onclick="OprBtnInsertText(this.innerHTML);">sin</button>
+            <button id="cosBtn" onclick="OprBtnInsertText(this.innerHTML);">cos</button>
+            <button id="tanBtn" onclick="OprBtnInsertText(this.innerHTML);">tan</button>
+            <button id="clearBtn" onclick="clearBtn();">C</button>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,12 @@
+body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#Calculator, #Counter, #BaseCalculator, #TicTacToe {
+    cursor: pointer;
+    border: none;
+    background-color: white;
+}
