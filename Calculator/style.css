@@ -49,3 +49,19 @@ body {
     border: 1px solid #bbbbbb;
     box-shadow: 0 0 10px #bbbbbb;
 }
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212;
+    }
+
+    #calc0, #calc1, #calc2, #calc3, #calc4, #calc5, #calc6, #calc7, #calc8, #calc9, #plusOP, #minusOP, #multiOP, #diviOP, #powButton, #logBtn, #facultyBtn, #wurzelBtn, #commaBtn, #sinBtn, #cosBtn, #tanBtn, #calcTextBox {
+        background-color: #121212;
+        color: white;
+    }
+
+    #calcBtn, #clearBtn {
+        background-color: #252525;
+        color: white;
+    }
+}

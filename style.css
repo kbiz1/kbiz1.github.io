@@ -3,7 +3,6 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    animation: openAnim 3s;
 }
 
 #Calculator, #Counter, #BaseCalculator, #TicTacToe {
@@ -12,12 +11,13 @@ body {
     background-color: white;
 }
 
-@keyframes openAnim {
-    from {
-        font-size: 2000px;
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212;
     }
-    
-    to {
-        font-size: 28px;
+
+    #ProjectsLabel, #Calculator, #Counter, #BaseCalculator, #TicTacToe {
+        color: white;
+        background-color: #121212;
     }
 }

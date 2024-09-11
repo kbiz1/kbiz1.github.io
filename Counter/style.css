@@ -38,3 +38,23 @@ body {
     border: 1px solid #bbbbbb;
     box-shadow: 0 0 10px #bbbbbb;
 }
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212;
+    }
+
+    #counterLabel {
+        color: white;
+    }
+
+    #NumInput {
+        background-color: #121212;
+        color: white;
+    }
+
+    #plusButton, #minusButton {
+        background-color: #121212;
+        color: white;
+    }
+}

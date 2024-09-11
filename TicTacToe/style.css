@@ -36,3 +36,18 @@ body {
     border: 1px solid #bbbbbb;
     box-shadow: 0 0 2px #bbbbbb;
 }
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212;
+        color: white;
+    }
+
+    .grid-item {
+        border: 1px solid white;
+    }
+
+    .grid-item:hover {
+        background-color: #222222;
+    }
+}
