@@ -14,7 +14,7 @@ body {
     text-align: center;
 }
 
-#BaseConverter, #Counter, #Calculator {
+#BaseConverter, #Counter, #Calculator, #TicTacToe {
     border-radius: 10px;
     border: 0px;
     padding: 7px;
@@ -28,7 +28,7 @@ body {
         color: white;
     }
 
-    #BaseConverter, #Counter, #Calculator {
+    #BaseConverter, #Counter, #Calculator, #TicTacToe {
         background-color: #252525;
         color: white;
     }
