@@ -1,23 +1,37 @@
 body {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: "Inter";
 }
 
-#Calculator, #Counter, #BaseCalculator, #TicTacToe {
-    cursor: pointer;
-    border: none;
-    background-color: white;
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+#githubBtn, #projectsBtn {
+  border-radius: 10px;
+  border: 0px;
+  padding: 7px;
+  margin-right: 15px;
+  margin-left: 15px;
+  cursor: pointer;
+  font-family: "Inter";
 }
 
 @media (prefers-color-scheme: dark) {
-    body {
-        background-color: #121212;
-    }
+body {
+    background-color: #121212;
+    color: white;
+  }
 
-    #ProjectsLabel, #Calculator, #Counter, #BaseCalculator, #TicTacToe {
-        color: white;
-        background-color: #121212;
-    }
+  #githubBtn, #projectsBtn {
+    background-color: #252525;
+    color: white;
+  }
 }

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link href='/fonts/inter/web/inter.css' rel='stylesheet'>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div id="app">
+            <p style="font-size: 48px; margin: 0;">Base Converter</p>
+            <div style="padding-bottom: 5px; padding-top: 20px;">
+                <select id="selectFromBase">
+                    <option value="Decimal">Decimal</option>
+                    <option value="Binary">Binary</option>
+                    <option value="Octal">Octal</option>
+                    <option value="Hexadecimal">Hexadecimal</option>
+                </select>
+            </div>
+            <div>
+                <select id="selectToBase">
+                    <option value="Decimal">Decimal</option>
+                    <option value="Binary">Binary</option>
+                    <option value="Octal">Octal</option>
+                    <option value="Hexadecimal">Hexadecimal</option>
+                </select>
+            </div>
+            <div style="padding-top: 5px;">
+                <input id="textBox1" type="text" placeholder="Number" style="width: 105px;">
+            </div>
+            <div style="padding-top: 5px;">
+                <button id="calculateButton" onclick="Calculate();" style="cursor: pointer;">Calculate</button>
+            </div>
+            <div style="padding-top: 5px;">
+                <label id="resultLabel"></label>
+            </div>
+        </div>
+    </body>
+</html>
