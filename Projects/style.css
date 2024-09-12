@@ -14,9 +14,22 @@ body {
     text-align: center;
 }
 
+#BaseConverter {
+    border-radius: 10px;
+    border: 0px;
+    padding: 7px;
+    cursor: pointer;
+    font-family: "Inter";
+}
+
 @media (prefers-color-scheme: dark) {
     body {
         background-color: #121212;
+        color: white;
+    }
+
+    #BaseConverter {
+        background-color: #252525;
         color: white;
     }
 }
