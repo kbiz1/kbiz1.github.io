@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link rel="stylesheet" href="style.css">
         <link href='/fonts/inter/web/inter.css' rel='stylesheet'>
         <script src="script.js"></script>
     </head>
     <body>
         <div id="app">
-            <p style="font-size: 48px; margin: 0;">Base Converter</p>
+            <h1 style="font-size: 48px; margin: 0;">Base Converter</h1>
             <div style="padding-bottom: 5px; padding-top: 20px;">
                 <select id="selectFromBase">
                     <option value="Decimal">Decimal</option>
@@ -25,7 +26,7 @@
                 </select>
             </div>
             <div style="padding-top: 5px;">
-                <input id="textBox1" type="text" placeholder="Number" style="width: 105px;">
+                <input id="textBox1" type="text" placeholder="Number" style="width: 100px;">
             </div>
             <div style="padding-top: 5px;">
                 <button id="calculateButton" onclick="Calculate();" style="cursor: pointer;">Calculate</button>

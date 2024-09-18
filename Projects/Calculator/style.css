@@ -69,4 +69,8 @@ body {
         background-color: #353535;
         color: white;
     }
+
+    #calcDesc {
+        color: white;
+    }
 }
