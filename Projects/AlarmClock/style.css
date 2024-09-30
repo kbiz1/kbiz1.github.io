@@ -14,7 +14,7 @@ body {
     text-align: center;
 }
 
-#hourContainer, #minuteContainer {
+#hourContainer, #minuteContainer, #secondsContainer {
     background-color: #f5f5f5;
 }
 
@@ -22,13 +22,18 @@ body {
     color: black;
 }
 
+
 @keyframes flip {
-    from {
-        transform: rotateX(180deg);
+    0% {
+        transform: rotateX(0deg);
     }
 
-    to {
-        transform: rotateX(360deg);
+    50% {
+        transform: rotateX(90deg);
+    }
+
+    100% {
+        transform: rotateX(0deg);
     }
 }
 
@@ -37,15 +42,15 @@ body {
         background-color: #121212;
     }
 
-    #colon {
+    #colon, #colon2 {
         color: white;
     }
 
-    #hourContainer, #minuteContainer {
+    #hourContainer, #minuteContainer, #secondsContainer {
         background-color: #252525;
     }
 
-    #minute, #hour {
+    #minute, #hour, #seconds {
         color: white;
     }
 }
