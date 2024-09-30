@@ -6,30 +6,46 @@ body {
     min-height: 100vh;
     font-family: "Inter";
 }
-  
-  #app {
+
+#app {
     max-width: 1280px;
     margin: 0 auto;
     padding: 2rem;
     text-align: center;
 }
 
-#BaseConverter, #Counter, #Calculator, #TicTacToe, #AlarmClock {
-    border-radius: 10px;
-    border: 0px;
-    padding: 7px;
-    cursor: pointer;
-    font-family: "Inter";
+#hourContainer, #minuteContainer {
+    background-color: #f5f5f5;
+}
+
+#hour, #minute {
+    color: black;
+}
+
+@keyframes flip {
+    from {
+        transform: rotateX(180deg);
+    }
+
+    to {
+        transform: rotateX(360deg);
+    }
 }
 
 @media (prefers-color-scheme: dark) {
     body {
         background-color: #121212;
+    }
+
+    #colon {
         color: white;
     }
 
-    #BaseConverter, #Counter, #Calculator, #TicTacToe, #AlarmClock {
+    #hourContainer, #minuteContainer {
         background-color: #252525;
+    }
+
+    #minute, #hour {
         color: white;
     }
 }
