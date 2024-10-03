@@ -17,6 +17,9 @@ export default {
       },
       animation: {
         rotateColors: 'rotateColors 6s linear infinite'
+      },
+      backgroundColor: {
+        offwhite: '#f5f5f5'
       }
     },
   },
